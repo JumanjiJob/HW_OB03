@@ -90,6 +90,7 @@ class Zoo():
         animals.remove(animal)
         return print(f'{animal.name} успешно удален из списка животных зоопарка')
 
+
 vet1 = Veterinarian('Ted', 24)
 vet2 = Veterinarian('Arnold', 50)
 keeper1 = Zookeeper('Mike', 42)
@@ -115,5 +116,6 @@ animal_sound(animals)
 
 zoo.info_people(people)
 zoo.info_animals(animals)
+
 
 
